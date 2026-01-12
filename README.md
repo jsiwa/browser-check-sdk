@@ -269,5 +269,5 @@ MIT License
 ---
 
 <div align="center">
-  Made with ❤️ by Manus AI
+  Initialized with ❤️ by Manus AI
 </div>
