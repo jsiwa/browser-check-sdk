@@ -1,0 +1,32 @@
+{
+  "name": "browser-check-sdk",
+  "version": "0.1.0",
+  "description": "A pluggable browser fingerprinting and risk assessment SDK.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "demo": "cd dev && bun run dev",
+    "demo:install": "cd dev && bun install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "fingerprint",
+    "sdk",
+    "security",
+    "risk-assessment",
+    "bot-detection"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "@types/bun": "latest"
+  },
+  "type": "module",
+  "private": true
+}
