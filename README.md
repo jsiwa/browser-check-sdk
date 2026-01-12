@@ -269,5 +269,5 @@ MIT License
 ---
 
 <div align="center">
-  Initialized with ❤️ by Manus AI
+  Initialized with ❤️ by Manus AI and Gemini
 </div>
