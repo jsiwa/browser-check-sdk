@@ -2,3 +2,8 @@ export * from './core';
 export * from './plugins/ip';
 export * from './plugins/fingerprint';
 export * from './plugins/bot';
+export * from './plugins/hardware';
+export * from './plugins/media';
+export * from './plugins/fonts';
+export * from './plugins/apis';
+export * from './plugins/behavior';
